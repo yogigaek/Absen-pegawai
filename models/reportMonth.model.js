@@ -11,9 +11,11 @@ const reportMonth = new Schema({
     },
     idCard: String,
     job: String,
-    comeLate: String,
-    mangkir: String,
-    leavePermission: String
+    comeLate: Number,
+    alpa: Number,
+    leavePermission: Number
+}, {
+    timestamps : true
 });
 
 const Report = mongoose.model('Report', reportMonth );

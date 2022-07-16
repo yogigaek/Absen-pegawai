@@ -1,44 +1,53 @@
-CRUDS menggunakan Express x javaScript
+CRUD ini menggunakan Node.js dengan framework Express.js dan menggunakan database MongoDB
 
-Ini adalah repository contoh sederhana pembuatan CRUD dengan menggunakan bahasa pemrograman JavaScript dengan bantuan database MONGODB.
+                Express MongoDB API
 
-Panduan Penggunaan
-Clone atau download repository ini. Jika kamu ingin meng-download kamu bisa klik tombol kode warna hijau kemudian klik download zip atau jika ingin meng-clone bisa jalankan perintah ini.
-git clone https://github.com/yogigaek/MERN/tree/backend
-Buka CommandPromp / terminal lainnya, buat databases baru dengan nama eduwork-native untuk mongoDb dan mongoose akan terbuat secara otomatis dengan source code berikut.
+User/Pegawai
+    Method: "GET dan POST",
+    URL : "/api/user/",
+    Method: "PUT dan DELETE",
+    URL : "/api/user/:id",
+Description :
+    Untuk Data pegawai/user saya relasikan dengan kehadiran
 
+=========================================
 
-Express MongoDB API
+Absen/Kehadiran
+    Method: "GET dan POST",
+    URL : "/api/attendence/",
+    Method: "PUT dan DELETE",
+    URL : "/api/attendence/:id",
+Description :
+    Untuk Data pegawai/user saya relasikan dengan kehadiran
 
-URL : "/api/v3/product",
+=========================================
 
-Method: "GET",
+Izin cuti
+    Method: "GET dan POST",
+    URL : "/api/leave/",
+    Method: "PUT dan DELETE",
+    URL : "/api/leave/:id",
+Description :
+    Untuk bisa mendapatkan approval pegawai harus mendapatkan persetujuan
+    dari departement/admin.
+    karna itu saya relasikan izin cuti dengan departement/admin
 
 
 =========================================
 
-URL :"/api/v3/product/:id",
-
-Method:"GET",
-
-
-=========================================
-
-
-Express Mongoose API
-
-
-URL : "/api/v4/product",
-
-Method: "GET",
-
+Departement/Admin
+    Method: "GET dan POST",
+    URL : "/api/departement/",
+    Method: "PUT dan DELETE",
+    URL : "/api/departement/:id",
 
 =========================================
 
-URL : "/api/v4/product/:id",
-
-Method: "GET",
-
+Laporan bulanan
+    Method: "GET dan POST",
+    URL : "/api/report/",
+    Method: "PUT dan DELETE",
+    URL : "/api/report/:id",
 
 
 Thank You!
