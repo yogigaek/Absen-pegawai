@@ -1,6 +1,6 @@
 CRUD ini menggunakan Node.js dengan framework Express.js dan menggunakan database MongoDB
 
-                Express MongoDB API
+Express MongoDB API
 
 User/Pegawai
 
